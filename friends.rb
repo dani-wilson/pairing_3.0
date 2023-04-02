@@ -4,3 +4,11 @@ numbers.each do |number|
         puts number
     end
 end
+
+puts "Testing numbers less than 60"
+
+numbers.each do |number|
+    if number < 60
+    puts number
+    end
+end
